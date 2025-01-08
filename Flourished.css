@@ -1,0 +1,466 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    min-height: 98px;
+    height: 98px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 0;
+    list-style: none;
+    background-color: #e0f3ff;
+    margin-bottom: 0
+}
+.exercise-editor-container-left {
+    flex: 1 1;
+    display: flex;
+    position: relative!important;
+    min-width: 400px;
+    flex-flow: column;
+    background-color: #e0f3ff;
+}
+.text-editor-menu-bar {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow-x: auto;
+    scrollbar-width: 0;
+    border-left: 2px solid #f1f1f1;
+    border-right: 2px solid #f1f1f1;
+    /* border-radius: 18px; */
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #007590;
+}
+.text-editor-menu-bar>.push-right button {
+    border: 1px solid #dcd9fa00;
+    border-radius: 4px;
+    padding: 0 6px;
+    min-height: 20px
+}
+.ui-btn.success {
+    color: #ffffff;
+    background-color: #007590;
+}
+
+.ui-btn.success:hover {
+    background-color: #02647b;
+}
+
+.ui-btn.success:active {
+    background-color: #02647b;
+}
+
+.ui-btn.success.disabled,.ui-btn.success:disabled {
+    color: #9c9c9c;
+    background-color: #057d9a;
+}
+
+.ui-btn.danger {
+    color: #cd2b34;
+    background-color: transparent
+}
+
+.ui-btn.danger:hover {
+    background-color: #eff1f6
+}
+
+.ui-btn.danger:active {
+    background-color: #ffcbce
+}
+
+.ui-btn.danger.disabled,.ui-btn.danger:disabled {
+    color: #ffcbce;
+    background-color: #eaeaea
+}
+.toolbar.left {
+    display: flex;
+    align-items: center;
+    max-height: 45px;
+    background-color: #e0f3ff;
+    border: 2px solid #f1f1f100;
+    border-radius: 23px 23px 0 0;
+    padding-right: 16px
+}
+.toolbar.right {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0f3ff;
+    border-radius: 18px 18px 0 0;
+    margin: 0;
+    position: relative;
+    height: 36px;
+    border-left: 2px solid #f1f1f100;
+    border-right: 2px solid #f1f1f100;
+    transition: background-color .3s
+}
+
+.toolbar.right .toolbar-button-container {
+    margin-right: auto
+}
+
+.toolbar.right .toolbar-button-container .sandbox-canvas-label {
+    left: 12px;
+    font-weight: 600;
+    padding-left: 12px;
+    font-size: 1.1em;
+    color: #616ea8
+}
+
+.toolbar.right.solution {
+    background-color: #fff
+}
+
+.toolbar.right .centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.running-indicator {
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    background-color: #df8063;
+    border-radius: 50%
+}
+
+.running-indicator.paused {
+    background-color: #ffdf8c
+}
+
+.running-indicator.running {
+    background-color: #58f5aa
+}
+
+.submitted-indicator {
+    padding-right: 20px
+}
+
+.sandbox-container {
+    min-height: 0;
+    height: 100%
+}
+.canvas {
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    border: 2px solid #f1f1f100;
+    border-top: none;
+    border-bottom: none;
+    background: #e0f3ff;
+    cursor: pointer
+}
+.below-canvas {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+    padding: 1.2em calc(100% - 440px) 1.2em 36px;
+    border: 2px solid #f1f1f100;
+    border-top: none;
+    background-color: #e0f3ff;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: border-color .3s
+}
+.ui-btn {
+    border: none;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 4px;
+    gap: 4px;
+    white-space: nowrap;
+    min-height: 32px
+}
+
+.ui-btn.large {
+    padding: 8px 24px;
+    min-height: 38px
+}
+#avatar-dropdown {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    padding: 1px 12px;
+    background-color: #e0f3ff!important;
+    box-shadow: none
+}
+.Pane1 {
+    max-height: 100%;
+    background-color: #e0f3ff;
+}
+.top-right-pane {
+    margin: 5px 0;
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid #e0f3ff00;
+}
+body a,html a {
+    color: #246188ba;
+}
+.react-autosuggest__input {
+    height: 40px;
+    width: 100%;
+    padding: 5px 5px 5px 35px;
+    color: #666;
+    background-color: #e5f2fb;
+    box-sizing: border-box;
+    border: 1px solid #aecee3;
+    border-radius: 40px;
+}
+.user-info {
+    width: 250px;
+    padding: 6px 10px;
+    max-height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.15em;
+    background: #e0f3ff;
+    border-right: 1px solid #eaeaea00;
+}
+.user-info>div {
+    background: #ffffff00;
+    margin: 4px;
+    padding: 10px 10px 10px 20px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #e0f3ff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)
+}
+.unit-trigger[aria-expanded=true] {
+    background-color: #007590;
+    color: #fff;
+    border: 2px solid #007590;
+}
+.notes-page-with-nav ul.scrollspy-nav>li>a:hover {
+    color: #007590;
+    text-decoration: none;
+    outline: none;
+}
+
+.notes-page-with-nav ul.scrollspy-nav>li.active>a,.notes-page-with-nav ul.scrollspy-nav>li.active a:focus,.notes-page-with-nav ul.scrollspy-nav>li.active a:hover {
+    margin-left: 0;
+    font-weight: 600;
+    color: #007590;
+    border-left: 2px solid #007590;
+    outline: none;
+}
+  .notes-checkpoint.active {
+    background-color: #f1f8fc;
+    border: 1px solid #e6eaed;
+}
+  .notes-checkpoint h3 {
+    position: relative;
+    color: #02647b;
+    font-weight: 600;
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+  .ui-btn.primary {
+    color: #fff;
+    background-color: #007590;
+}
+
+.ui-btn.primary:hover {
+    background-color: #03667d;
+}
+
+.ui-btn.primary:active {
+    background-color: #077a95;
+}
+ .exercise-editor {
+    flex: 1 1;
+    display: flex;
+    min-height: 0;
+    overflow: auto;
+    background-color: #e0f3ff;
+    height: 100%;
+}
+.toggle {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: auto;
+    min-height: 32px;
+    line-height: 30px;
+    background-color: #0075904a;
+    position: relative;
+    z-index: 0;
+    display: flex;
+}
+
+.toggle.active {
+    background-color: #0075904a;
+}
+  .toggle .toggle-active.inactive {
+    color: #edfaff;
+    border-radius: 15px;
+    z-index: 0;
+}
+  .toggle .toggle-handle {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #007590;
+    transition: left .3s ease-in-out,background-color .3s ease-in-out;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.toggle .toggle-inactive.active {
+    color: #edfaff;
+}
+  .toggle .toggle-handle.inactive {
+    left: 50%;
+    background-color: #007590;
+}
+  .toolbar.right.solution {
+    background-color: #e0f3ff;
+}
+#app {
+    display: flex;
+    flex-flow: column;
+    background-color: #e0f3ff;
+}
+.docs-sidebar {
+    flex: .1 0 220px;
+    display: flex;
+    flex-flow: column;
+    overflow-y: auto;
+    border-right: 1px solid #e0f3ff;
+    background-color: #e0f3ff;
+    position: relative
+}
+.docs-link.active {
+    font-weight: 600;
+    color: #007590;
+    position: relative
+}
+
+.docs-link.active:after {
+    content: "";
+    height: .15em;
+    width: 2.6em;
+    background-color: #63daf6;
+    position: absolute;
+    bottom: -.3em;
+    left: 0
+}
+.docs-search-box .react-autosuggest__input,.mobile-search-box .react-autosuggest__input {
+    border: 1px solid #aecee3;
+    background-color: #e5f2fb;
+    color: #666
+}
+.docs-container .cs3-mode-switch {
+    background: #e5f2fb;
+    border-color: #aecee34f;
+}
+body .MuiSwitch-colorPrimary.Mui-checked,html .MuiSwitch-colorPrimary.Mui-checked {
+    color: #007590;
+}
+.docs-navbar ul.scrollspy-nav>li>a:hover {
+    color: #007590;
+    text-decoration: none;
+    outline: none
+}
+
+.docs-navbar ul.scrollspy-nav>li.active>a,.docs-navbar ul.scrollspy-nav>li.active a:focus,.docs-navbar ul.scrollspy-nav>li.active a:hover {
+    margin-left: 0;
+    font-weight: 600;
+    color: #007590;
+    background-color: #fff;
+    border-left: 2px solid #007590;
+    outline: none
+}
+.docs-content h2 {
+    font-size: 2em;
+    color: #007590;
+}
+.cs3-mode-switch {
+    border: 2px solid #eaeaea;
+    padding: 0 10px 0 0;
+    margin-right: 15px;
+    border-radius: 30px;
+}
+body .MuiSwitch-colorPrimary.Mui-checked,html .MuiSwitch-colorPrimary.Mui-checked {
+    color: #007590
+}
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+    background-color: #007590;
+}
+.navbar .course-dropdown .course-picker-selected>a,.navbar .course-dropdown .course-picker-selected>a:focus,.navbar .course-dropdown .course-picker-selected>a:hover {
+    background: #e0f3ff;
+    color: #007590;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e0f3ff;
+}
+.settings-modal-dialog .modal-content .modal-content-wrapper {
+    flex: 1 1;
+    background-color: #e0f3ff;
+}
+.settings-modal-dialog .modal-body h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #034e5f;
+}
+.settings-modal-dialog .modal-header .modal-title {
+    color: #007590;
+    font-weight: 600;
+    font-size: 1.5em
+}
+.unit-container {
+    margin: 30px 0;
+    background-color: #ffffff00;
+}
+.unit-panel {
+    border: 2px solid #f1f1f1;
+    border-top: 0;
+    border-radius: 53px;
+    background-color: #ffffff;
+}
+.navbar li.navitem>a:focus:hover,.navbar li.navitem>a:hover {
+    text-decoration: none;
+    color: #007590;
+}
