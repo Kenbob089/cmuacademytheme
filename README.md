@@ -7,6 +7,6 @@ Tired of the boring look of your favorite python learning site? Well you're in l
   5. Enter any style name you would like and make sure the domain says: **academy.cs.cmu.edu**
   6. Get the code from [Flourished.css](cmuacademytheme/Flourished.css) you copied earlier and paste it in the code block. ![image](https://github.com/user-attachments/assets/248eee03-f065-4123-929e-05be1af1090f)
   7. Click **Save** and you're all set!
-
+*By Kenbob*
 **Preview:**
 ![image](https://github.com/user-attachments/assets/2c3fcfc1-a18c-4b4c-a3d0-8ca6114a6c50)
