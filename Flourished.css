@@ -242,7 +242,7 @@ body a,html a {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: auto;
     z-index: 1000;
     display: none;
     float: left;
@@ -253,12 +253,10 @@ body a,html a {
     text-align: left;
     list-style: none;
     background-color: #e0f3ff;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 4px;
-    box-shadow: 0 6px 12px rgba(0,0,0,.175)
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 .unit-trigger[aria-expanded=true] {
     background-color: #007590;
@@ -463,4 +461,224 @@ body .MuiSwitch-colorPrimary.Mui-checked,html .MuiSwitch-colorPrimary.Mui-checke
 .navbar li.navitem>a:focus:hover,.navbar li.navitem>a:hover {
     text-decoration: none;
     color: #007590;
+}
+#feedback-checklist-console-tabs .nav-tabs li.active a {
+    background-color: #e0f3ff;
+    color: #007590;
+    padding: 4px 10px 8px;
+    margin-top: 4px
+}
+.checklist-items li.title a .edit-buttons .button:hover .message {
+    color: #007590;
+    display: inline;
+    border-radius: 3px
+}
+
+.checklist-items li.title.active a {
+    color: #007590;
+    font-weight: 600;
+    background-color: transparent
+}
+.basic-test-case .trigger {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid #eaeaea00;
+    margin: 0;
+    padding: .9em 1.1em;
+    background-color: #fff;
+    font-size: .9em;
+    border-radius: 20px;
+    position: relative
+}
+
+.basic-test-case .trigger .test-case-message {
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    color: #007590;
+    font-weight: 600;
+    opacity: 0;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    justify-content: center;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    background-color: #fff;
+    font-family: Open Sans;
+    font-size: 1.4rem;
+    margin-left: 2.8rem;
+    z-index: 2;
+    transition: all 1s ease-in 1s
+}
+.basic-test-case.active .trigger {
+    border: 1px solid #007590 !important;
+    background-color: #0075900f;
+}
+.notes-page-container h1 {
+    font-weight: 600;
+    color: #007590;
+    font-size: 2.2em;
+    padding-bottom: .8em;
+    border-bottom: 2px dotted #c0c5dc
+}
+.notes-page-with-nav ul.scrollspy-nav {
+    padding: 2.1em 0 0;
+    list-style: none;
+    height: 100%;
+    width: 250px;
+    background-color: #e0f3ff;
+    overflow-y: hidden;
+    border-right: 1px solid #d2d2d200
+}
+.notes-page-with-nav ul.scrollspy-nav>li>a {
+    padding: 7px 0 7px 18px;
+    border-left: 2px solid #00759026;
+    font-size: 1em;
+    box-decoration-break: clone;
+    display: inline-block;
+    background-color: transparent
+}
+.sidebar {
+    border: 4px solid #007590;
+    background-color: #e0f3ff;
+    border-radius: 34px;
+    margin: 20px;
+    padding: 20px
+}
+.alert {
+    padding: 15px 30px;
+    border-radius: 34px;
+    color: #363636;
+    background-color: #e0f3ff;
+    box-shadow: 0 4px 8px rgba(54,54,54,.25)
+}
+.ui-btn.secondary {
+    color: #007590;
+    background-color: #d4efff;
+}
+.ui-btn.secondary {
+    color: #007590;
+    background-color: #d4efff;
+}
+
+.ui-btn.secondary:hover {
+    background-color: #c1def0
+}
+
+.ui-btn.secondary:active {
+    background-color: #b9d1df
+}
+.sidebar b,.sidebar em,.sidebar i {
+    font-style: normal;
+    font-weight: 600;
+    color: #007590;
+}
+
+.sidebar a {
+    color: #007590;
+    text-decoration: underline
+}
+.quiz-page-inner {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 80px;
+}
+.quiz-page-inner .highlight {
+    background: #ffd9d9;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 5px;
+    border-radius: 80px;
+}
+.navbar li.navitem>a:not(.no-active-dash):active {
+    outline: 2px dashed #007590
+}
+
+.navbar li.navitem>a:not(.no-active-dash):active,.navbar li.navitem>a:not(.no-active-dash):focus:active,.navbar li.navitem>a:not(.no-active-dash):hover:active {
+    color: #007590;
+    outline: 2px dashed #007590;
+}
+
+.navbar li.navitem>a:focus:hover,.navbar li.navitem>a:hover {
+    text-decoration: none;
+    color: #007590
+}
+.navbar li.navitem>a {
+    color: #007590;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle
+}
+.page-footer {
+    border-top: 1px solid #eaeaea00;
+    width: 100%;
+    height: 50%;
+    background-color: #e0f3ff;
+    display: flex;
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 100px
+}
+.settings-modal-dialog .sample-text {
+    overflow: hidden;
+    padding: .9em;
+    color: #007590;
+    border: 2px solid #eff1f600;
+    margin-top: 1.5em
+}
+.simple-link.purple {
+    color: #007590
+}
+
+.simple-link.purple:active,.simple-link.purple:focus,.simple-link.purple:hover {
+    color: #007590
+}
+
+.simple-link.purple-gray {
+    color: #6e6666;
+}
+
+.simple-link.purple-gray:active,.simple-link.purple-gray:focus,.simple-link.purple-gray:hover {
+    color: rgb(95, 99, 104)
+}
+
+.main-link {
+    color: #616ea8;
+    position: relative;
+    text-align: center;
+    white-space: nowrap
+}
+
+.main-link:focus {
+    text-decoration: none;
+    outline: 2px dashed #007590
+}
+
+.main-link:active,.main-link:focus:active,.main-link:hover:active {
+    color: #007590
+}
+
+.main-link:focus:hover,.main-link:hover {
+    text-decoration: none;
+    color: #007590
+}
+
+.yellow-underline-link {
+    padding: 0;
+    margin: 0;
+    color: #616ea8;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    float: none
+}
+.yellow-underline-link:hover {
+    color: #007590
 }
