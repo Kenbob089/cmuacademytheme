@@ -682,3 +682,280 @@ body .MuiSwitch-colorPrimary.Mui-checked,html .MuiSwitch-colorPrimary.Mui-checke
 .yellow-underline-link:hover {
     color: #007590
 }
+.toolbar-title {
+    padding-left: 10px;
+    font-size: 1.1em;
+    color: #007590;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.versions-modal .modal-content {
+    border-radius: 30px;
+    height: 100%;
+    background-color: #e0f3ff;
+}
+.versions-modal h3 {
+    color: #007590;
+}
+.versions-modal .editor-col {
+    flex: 1 1 650px;
+    padding: 5px 12px;
+    position: relative;
+    background-color: #f9f9f900;
+    align-items: flex-end
+}
+.versions-modal .scroll-col {
+    flex: 1 1 300px;
+    border-right: 2px solid #f1f1f100;
+}
+.versions-modal .list-group-item.weekday {
+    border-top: 2px solid #e0f3ff;
+    border-bottom: 3px solid #d7e5ee00;
+    background-color: #e0f3ff;
+}
+.versions-modal .list-group-item.history-end {
+    border-top: 1px solid #9c9c9c;
+    justify-content: center;
+    background-color: #e0f3ff;
+}
+.versions-modal .list-group-item.active {
+    color: #666;
+    outline: none;
+    border: none;
+    box-shadow: inset 4px 0 0 #007590;
+}
+.csa-checkbox .checkmark {
+    position: absolute;
+    font-size: 14px;
+    height: 16px;
+    width: 16px;
+    line-height: 12px;
+    border: 2px solid #007590;
+    background: #fff;
+    color: transparent
+}
+
+.csa-checkbox .checkmark.active {
+    color: #007590;
+    z-index: 2
+}
+.versions-modal .editor-col .checkbox-label {
+    color: #007590;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 0;
+    margin-left: 8px
+}
+.checklist-items li.title a .edit-buttons .button:hover .message {
+    color: #007590;
+    display: inline;
+    border-radius: 3px
+}
+
+.checklist-items li.title.active a {
+    color: #007590;
+    font-weight: 600;
+    background-color: transparent
+}
+.checklist-item.active .title {
+    color: #007590;
+    background-color: #fff;
+    font-size: .9em;
+    font-weight: 600;
+    padding: .3em 0 .9em
+}
+
+.checklist-item.active .title-circle {
+    border-color: #fff;
+    background-color: #007590;
+    color: #fff
+}
+.checklist-item.active .item-tests {
+    border-color: #007590
+}
+.checklist-item a.expand-test-cases {
+    cursor: pointer;
+    color: #007590;
+    margin-top: .9em;
+    display: block
+}
+ui-btn.primary {
+    color: #fff;
+    background-color: #007590
+}
+
+.ui-btn.primary:hover {
+    background-color: #035c71
+}
+.ui-btn.primary:active {
+    background-color: #154f5d
+}
+.ui-btn.secondary {
+    color: #007590;
+    background-color: #81b5c1
+}
+
+.ui-btn.secondary:hover {
+    background-color: #03586e
+}
+
+.ui-btn.secondary:active {
+    background-color: #aee1ed
+}
+.ui-btn.ghost {
+    color: #007590;
+    background-color: transparent
+}
+
+.ui-btn.ghost:hover {
+    background-color: #eff1f6
+}
+
+.ui-btn.ghost:active {
+    background-color: #d4ecf2
+}
+.ui-btn.success {
+    color: #007590;
+    background-color: #58f5aa
+}
+.dashed-button>div {
+    color: #007590;
+    border: 2px dashed #007590;
+    padding: 11px 12px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    font-weight: 600;
+    height: 42px;
+    cursor: pointer
+}
+input:focus {
+    outline: none;
+    border-color: #007590
+}
+.info-page-container .info-page-content-container h2 {
+    text-align: center;
+    color: #007590;
+    font-size: 2.6em;
+    margin-bottom: .9em
+}
+
+.info-page-container .info-page-content-container h3 {
+    color: #007590;
+    margin-top: 2.7em
+}
+
+.info-page-container .info-page-content-container h4 {
+    font-size: 1.5em;
+    color: #007590
+}
+
+.info-page-container .info-page-content-container h6 {
+    font-size: 1.2em;
+    color: #007590
+}
+.info-page-container .info-page-content-container .role-text {
+    color: #007590;
+    margin: .3em 0 .9em
+}
+.info-page-container .info-page-content-container .profile-card {
+    width: 306px;
+    height: 580px;
+    border-radius: 0;
+    border: 1px solid #dfe2ee;
+    border-top: 8px solid #007590;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column
+}
+.info-page-container .info-page-content-container .profile-card .content-contributor-selector,.info-page-container .info-page-content-container .profile-card .staff-year-selector {
+    padding: .6em .9em;
+    background-color: #dfe2ee;
+    color: #007590;
+    border: 2px solid #d0d4e5
+}
+.slideshow-dot:focus:after {
+    content: "";
+    width: 150%;
+    height: 150%;
+    display: block;
+    border: none;
+    outline: 2px dotted #007590;
+    position: relative;
+    right: 3px;
+    bottom: 2px
+}
+.info-page-container.pd-page-container .info-page-content-container .date {
+    color: #007590
+}
+.course-info-container .course-info-content-container h5 {
+    color: #007590;
+    font-weight: 600;
+    font-size: 1.1em
+}
+.course-info-container .course-info-content-container .course-info-link a.purple {
+    color: #007590;
+    margin-right: 1em
+}
+.course-info-container .course-info-content-container .curricula-box .description .description-row.right .slogan.cs1 {
+    background-color: #007590;
+    color: #fff
+}
+.course-info-container .course-info-content-container .curricula-box .curricula-dropdown {
+    margin: 0 3.4em 2.6em;
+    background-color: transparent;
+    border: 2px solid #c0c5dc;
+    color: #007590
+}
+.docs-content h1 {
+    font-weight: 600;
+    font-size: 2.2em;
+    background-color: #007590;
+    background-image: url(/static/media/banner-short.f0189d3e.png);
+    color: #fff;
+    padding: 19px 28px;
+    border: 0;
+    margin: 6em 0 0
+}
+.docs-content h1 {
+    font-weight: 600;
+    font-size: 2.2em;
+    background-color: #007590;
+    background-image: url(/static/media/banner-short.f0189d3e.png);
+    color: #fff;
+    padding: 19px 28px;
+    border: 0;
+    margin: 6em 0 0
+}
+.categories-modal-dialog .modal-content a:active,.categories-modal-dialog .modal-content a:hover {
+    font-weight: 600;
+    text-decoration: none;
+    color: #007590;
+    position: relative
+}
+.docs-link.active {
+    font-weight: 600;
+    color: #007590;
+    position: relative
+}
+.docs-search-box ul.scrollspy-nav>li>a:hover {
+    color: #007590;
+    text-decoration: underline;
+    outline: none
+}
+.docs-search-box ul.scrollspy-nav>li.active>a,.docs-search-box ul.scrollspy-nav>li.active a:focus,.docs-search-box ul.scrollspy-nav>li.active a:hover {
+    font-weight: 600;
+    background-color: #f9f9f9;
+    color: #007590;
+    margin-left: 22px;
+    padding-left: 5px;
+    border-bottom: 2px solid #ffc940;
+    outline: none
+}
+.course-info-container .course-info-content-container .curricula-box .description .description-row.right .slogan.cpcs,.course-info-container .course-info-content-container .curricula-box .description .description-row.right .slogan.cs2 {
+    background-color: #007590;
+    color: #fff
+}
