@@ -1008,3 +1008,58 @@ input:focus {
 input {
     border: 2px solid rgb(97 161 168 / 30%);
 }
+.btn-warning {
+    color: #fff;
+    background-color: #007590;
+    border-color: #1b9dbb
+}
+
+.btn-warning.focus,.btn-warning:focus {
+    color: #fff;
+    background-color: #007590;
+    border-color: #04647a
+}
+
+.btn-warning.active,.btn-warning:active,.btn-warning:hover,.open>.dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #007590;
+    border-color: #015f75;
+}
+
+.btn-warning.active.focus,.btn-warning.active:focus,.btn-warning.active:hover,.btn-warning:active.focus,.btn-warning:active:focus,.btn-warning:active:hover,.open>.dropdown-toggle.btn-warning.focus,.open>.dropdown-toggle.btn-warning:focus,.open>.dropdown-toggle.btn-warning:hover {
+    color: #fff;
+    background-color: #007590;
+    border-color: #0f7289
+}
+.btn-warning.disabled.focus,.btn-warning.disabled:focus,.btn-warning.disabled:hover,.btn-warning[disabled].focus,.btn-warning[disabled]:focus,.btn-warning[disabled]:hover,fieldset[disabled] .btn-warning.focus,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:hover {
+    background-color: #007590;
+    border-color: #03667d;
+}
+.form-control {
+    border: 2px solid rgba(97,110,168,.3);
+    border-radius: 80px;
+}
+.join-classroom-panel {
+    margin-top: 30px;
+    width: fit-content;
+    border-radius: 30px;
+}
+.form-control:focus {
+    border: 2px solid #007590;
+    box-shadow: none
+}
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    width: calc(100% + 40px);
+    top: 40px;
+    border: 1px solid #e0f3ff;
+    background-color: #e0f3ff;
+    z-index: 2;
+    left: -20px
+}
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #cde0ec;
+}
