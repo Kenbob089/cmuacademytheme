@@ -3,13 +3,13 @@
 
 2. Then go the Stylish Extension and click **My Styles**
 
-![image](https://github.com/user-attachments/assets/2c9ce1a9-65bf-4612-829c-cff356c6aa2f)
+![image](https://github.com/user-attachments/assets/f056df6f-b001-4f4b-a91c-4775ed4f54bc)
 
-3. If you hover over the theme, you will see these buttons:
+3. If you hover over the theme you will see these buttons, click the **pencil**:
 
 ![image](https://github.com/user-attachments/assets/4ba11095-6f8b-496c-9790-d5644fa3646f)
 
-4. Click the **pencil** (edit icon) and delete the previous code and paste the new code
+4. Now delete the previous code and paste the new code
 
 ![image](https://github.com/user-attachments/assets/3f88ad89-d5fc-46d7-b2d1-92e18d1faf53)
 
