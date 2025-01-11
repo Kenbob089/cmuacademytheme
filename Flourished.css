@@ -816,9 +816,18 @@ ui-btn.primary {
     background-color: #d4ecf2
 }
 .ui-btn.success {
-    color: #007590;
-    background-color: #58f5aa
+    color: #ffffff;
+    background-color: #007590
 }
+
+.ui-btn.success:hover {
+    background-color: #007590
+}
+
+.ui-btn.success:active {
+    background-color: #007590
+}
+
 .dashed-button>div {
     color: #007590;
     border: 2px dashed #007590;
@@ -958,4 +967,44 @@ input:focus {
 .course-info-container .course-info-content-container .curricula-box .description .description-row.right .slogan.cpcs,.course-info-container .course-info-content-container .curricula-box .description .description-row.right .slogan.cs2 {
     background-color: #007590;
     color: #fff
+}
+.user-info .syllabus-sidebar h4 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1em;
+    color: #007590;
+}
+.sidebar-hr {
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #e0f3ff00;
+}
+.syllabus-container .course-picker-selected {
+    background: #007590;
+    padding: 5px
+}
+.docs-sidebar .break:before {
+    content: "";
+    position: absolute;
+    top: -1em;
+    height: .15em;
+    width: 7.6em;
+    background-color: #63daf6;
+}
+.settings-modal-dialog .toggle .toggle-handle,.settings-modal-dialog .toggle .toggle-handle.inactive {
+    background-color: #007590;
+}
+.settings-modal-dialog .toggle .toggle-active.inactive,.settings-modal-dialog .toggle .toggle-inactive.active {
+    color: #edfaff;
+}
+.settings-modal-dialog .toggle.active {
+    background-color: #0075904a;
+}
+.settings-modal-dialog .toggle {
+    background-color: #0075904a;
+    margin: auto
+}
+input {
+    border: 2px solid rgb(97 161 168 / 30%);
 }
