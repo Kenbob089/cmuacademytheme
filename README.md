@@ -1,4 +1,4 @@
-# Cmu CS Academy Theme - Flourished v1.1.1
+# Cmu CS Academy Theme - Flourished v1.1.2
 Tired of the boring look of your favorite python learning site? Well you're in luck! Heres how to apply the theme the easy way.
  1. Go to the [Flourished.css](cmuacademytheme/Flourished.css) file and copy it's contents.
   2. Once you copied the contents go to the chrome webstore and install [stylish](https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en&pli=1)
