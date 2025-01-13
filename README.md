@@ -5,7 +5,7 @@ Tired of the boring look of your favorite python learning site? Well you're in l
   3. Then, go to [CMU CS Acedemy](https://academy.cs.cmu.edu/course)
   4. Open the extention and click editor. ![image](https://github.com/user-attachments/assets/4a59628c-bc59-4ea9-91f2-9367c4d47c5e)
   5. Enter any style name you would like and make sure the domain says: **academy.cs.cmu.edu**
-  6. Get the code from [Flourished.css](cmuacademytheme/Flourished.css) you copied earlier and paste it in the code block. ![image](https://github.com/user-attachments/assets/248eee03-f065-4123-929e-05be1af1090f)
+  6. Get the code from [Flourished.css](Flourished.css) you copied earlier and paste it in the code block. ![image](https://github.com/user-attachments/assets/248eee03-f065-4123-929e-05be1af1090f)
   7. Click **Save**
   8. Create an account or sign in to stylish*
 ![image](https://github.com/user-attachments/assets/940d7ee3-832d-4a9a-a2cf-4ffb9f329914)
