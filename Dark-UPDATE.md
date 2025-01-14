@@ -3,7 +3,7 @@
 
 2. Then go the Stylish Extension and click **My Styles**
 
-![image](https://github.com/user-attachments/assets/f056df6f-b001-4f4b-a91c-4775ed4f54bc)
+![image](https://github.com/user-attachments/assets/d0219f4d-0187-49ba-a25c-5e39cf031798)
 
 3. If you hover over the theme you will see these buttons, click the **pencil**:
 
