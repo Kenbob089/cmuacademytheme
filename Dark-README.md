@@ -14,7 +14,8 @@ Tired of the boring look of your favorite python learning site? Well you're in l
 ![image](https://github.com/user-attachments/assets/d33ea579-0eaa-44ec-942d-78036572912f)
 
 **Preview:**
-![image](https://github.com/user-attachments/assets/2c3fcfc1-a18c-4b4c-a3d0-8ca6114a6c50)
+![image](https://github.com/user-attachments/assets/38157548-6b32-485c-bd6a-9725b88cb114)
+
 *By Kenbob, I am not affiliated with CMU or stylish*
 
 *This step is sadly required in order to save the theme.**
