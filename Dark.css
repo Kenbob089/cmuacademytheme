@@ -305,10 +305,6 @@ div.new-window-icon,div.new-window-icon img.regular {
     margin: auto;
     filter: brightness(10);
 }
-.canvas-menu .dropdown.btn-group {
-    margin-left: 4px;
-    filter: brightness(10);
-}
 .below-canvas {
     display: flex;
     justify-content: space-between;
