@@ -8,7 +8,7 @@
 ### Disclaimer:
 *Not Final*
 #### Known issues:
-Dropdown menu in editor won't show up *(Fixed - [v0.5.0.1RC](Dark.css))*
+Dropdown menu in editor won't show up *(Fixed - [v0.5.0.1RC](cmuacademytheme/Dark.css))*
 
 ## Installing the Theme
 ### Install Theme Manually - [**Guide**](Dark-README.md)
