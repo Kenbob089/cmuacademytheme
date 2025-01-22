@@ -77,6 +77,10 @@ div.new-window-icon,div.new-window-icon img.regular {
     color: #fff;
     border-right: 2px solid #323232
 }
+.ace-xcode .ace_gutter {
+  background: #e8e8e8;
+  color: #ffffff;
+}
 .ace-xcode .ace_marker-layer .ace_selection {
   background: #2a78df75;
 }
@@ -316,6 +320,15 @@ div.new-window-icon,div.new-window-icon img.regular {
     user-select: none;
     transition: border-color .3s
 }
+.canvas-menu button {
+    font-size: .8em;
+    background-color: transparent;
+    filter: brightness(10);
+    white-space: nowrap;
+    margin: 0 4px;
+    padding: 0 2px;
+    border: none
+}
 .below-canvas .mouse-pos {
     min-width: 8em;
     text-align: right;
@@ -408,7 +421,7 @@ div.new-window-icon,div.new-window-icon img.regular {
     flex: 1 1;
     overflow-y: auto;
     background-color: #161618;
-  	scrollbar-color:#323232 #212124
+  	scrollbar-color:#9f9f9f #212124
 }
 .user-info {
     width: 280px;
@@ -420,7 +433,7 @@ div.new-window-icon,div.new-window-icon img.regular {
     font-size: 1.15em;
     background: #212124;
     border-right: 1px solid #161618;
-  	scrollbar-color:#323232 #212124
+  	scrollbar-color: #9f9f9f #212124
 }
 .react-autosuggest__input {
     height: 40px;
@@ -754,7 +767,7 @@ div.exercise-link.unlocked:focus,div.exercise-link.unlocked:hover {
     border-radius: 0;
     display: flex;
     flex-direction: column;
-    background-color: #161616;
+    background-color: #212124;
 }
 .simple-link {
     color: #d3d3d3;
@@ -902,6 +915,12 @@ navbar .course-dropdown .course-picker-selected>a,.navbar .course-dropdown .cour
 .test-case-panel .col-sm-6.checklist-left {
     border-right: 2px solid #f1f1f100;
     background-color: #212124;
+    scrollbar-color: #9f9f9f #212124;
+}
+.checklist-items .col-sm-6 .tab-content {
+    height: 100%;
+    overflow-y: auto;
+    scrollbar-color: #9f9f9f #212124;
 }
 .checklist-items li.title a .edit-buttons .button:hover .message {
     color: #ffffff;
@@ -994,7 +1013,28 @@ button,input,optgroup,select,textarea {
     background-color: #212124;
     margin: 0 3px 5px 5px
 }
-
+.color-info {
+    margin-top: .9em;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4em;
+    border: 2px solid #323232;
+    background-color: #323232;
+    border-radius: 30px;
+    font-size: 1.1em
+}
+.docs-content.cpcs .docs-smallHeader {
+    background-color: #202023;
+    margin: 2.5em 0 1em;
+    padding: .9em
+}
+.color-info-name,.color-info-rgb,.gradient-name {
+    padding: 10px 10px 10px 3.4em;
+    font-family: Inconsolata,Menlo,Consolas,monospace;
+    color: #cdcaca;
+}
 .docs-content .docs-article.scrollspy {
     display: flex;
     flex-flow: row;
@@ -1640,19 +1680,26 @@ button, input, optgroup, select, textarea {
 .ace_scrollbar-h {
     overflow-x: scroll;
     overflow-y: hidden;
-    scrollbar-color: #323232 #212124;
+    scrollbar-color: #9f9f9f #212124;
     left: 0;
 }
 .ace_scrollbar-v{
     overflow-x: hidden;
     overflow-y: scroll;
     top: 0;
-    scrollbar-color:#323232 #212124
+    scrollbar-color:#9f9f9f #212124
 }
 .load-modal-dialog .modal-content .modal-content-wrapper {
     overflow-y: auto;
-    scrollbar-color: #323232 #212124;
+    scrollbar-color: #9f9f9f #212124;
   	background-color: #212124;
+}
+.console-container {
+    flex: 1 1;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    scrollbar-color: #9f9f9f #212124;
 }
 .console-output .clear-console-container {
     position: absolute;
@@ -1738,4 +1785,221 @@ input:focus {
 .form-control:focus {
     border: 2px solid #b8b8b8;
     box-shadow: none
+}
+.notes-container div.notes-link:focus, .notes-container div.notes-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+    background-color: #333333;
+    border-radius: 34px;
+}
+ .versions-modal .editor-col {
+    flex: 1 1 650px;
+    padding: 5px 12px;
+    position: relative;
+    background-color: #ffffff00;
+    align-items: flex-end
+}
+.versions-modal .list-group-item.weekday {
+    border-top: 2px solid #f1f1f100;
+    border-bottom: 3px solid #f1f1f100;
+    background-color: rgb(32, 33, 36);
+}
+a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,button.list-group-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #323232;
+}
+.versions-modal .version {
+    font-size: 14px;
+    margin: 0;
+    background-color: #212124;
+}
+.versions-modal .version-modal-body {
+    height: 100%;
+    padding: 0;
+    background-color: #21212400;
+}
+.versions-modal .list-group-item.history-end {
+    border-top: 1px solid #666;
+    justify-content: center;
+    background-color: #323232;
+}
+a.list-group-item,button.list-group-item {
+    color: #ffffff;
+}
+.versions-modal .scroll-col {
+    flex: 1 1 300px;
+    border-right: 2px solid #212124;
+}
+.versions-modal h3 {
+    color: #ededed;
+}
+.versions-modal .modal-content {
+    border-radius: 34px;
+    height: 100%;
+    background-color: #212124;
+}
+.versions-modal .versions-list {
+    overflow-y: auto;
+    margin: 0;
+    scrollbar-color: #9f9f9f #212124;
+}
+.versions-modal .list-group-item.active {
+    background-color: #f9f9f9;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    box-shadow: inset 4px 0 0 #5e99ff
+}
+
+.exercise-translation-root [class$=diff-container],.note-translation-root [class$=diff-container],.versions-modal [class$=diff-container] {
+    border: 2px solid #212124;
+    background-color: #1d1e20;
+}
+.exercise-translation-root [class$=diff-container] pre,.note-translation-root [class$=diff-container] pre,.versions-modal [class$=diff-container] pre {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    background-color: unset;
+    border: none;
+    border-radius: 0
+}
+.exercise-translation-root [class$=diff-container] [class$=gutter],.exercise-translation-root [class$=diff-container] [class*=gutter][class$=diff-added],.exercise-translation-root [class$=diff-container] [class*=gutter][class$=diff-removed],.note-translation-root [class$=diff-container] [class$=gutter],.note-translation-root [class$=diff-container] [class*=gutter][class$=diff-added],.note-translation-root [class$=diff-container] [class*=gutter][class$=diff-removed],.versions-modal [class$=diff-container] [class$=gutter],.versions-modal [class$=diff-container] [class*=gutter][class$=diff-added],.versions-modal [class$=diff-container] [class*=gutter][class$=diff-removed] {
+    flex: 0 0;
+    border-right: 0.1px solid rgb(195 195 195 / 19%);
+    order: 0
+}
+.exercise-translation-root [class$=diff-container] [class*=gutter], .note-translation-root [class$=diff-container] [class*=gutter], .versions-modal [class$=diff-container] [class*=gutter] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1e1f;
+}
+.versions-modal .editor-col .diff-viewer-wrapper {
+    width: 100%;
+    overflow-y: auto;
+    border-radius: 25px;
+    scrollbar-color: #9f9f9f #212124;
+}
+.exercise-translation-root [class$=diff-container] [class$=diff-removed],.note-translation-root [class$=diff-container] [class$=diff-removed],.versions-modal [class$=diff-container] [class$=diff-removed] {
+    background: #973e3e45
+}
+
+.exercise-translation-root [class$=diff-container] [class$=diff-added],.note-translation-root [class$=diff-container] [class$=diff-added],.versions-modal [class$=diff-container] [class$=diff-added] {
+    background:  #25986145;
+}
+.versions-modal .list-group-item.active {
+    background-color: #259861451;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    box-shadow: inset 4px 0 0 #5e99ff;
+}
+.versions-modal .list-group-item.diff-newer {
+    background-color: #25986145;
+}
+
+.versions-modal .list-group-item.diff-newer:hover {
+    background-color: #259861;
+}
+
+.versions-modal .list-group-item.diff-older {
+    background-color: #973e3e73;
+}
+
+.versions-modal .list-group-item.diff-older:hover {
+    background-color: #973e3e;
+}
+.modal-content {
+    position: relative;
+    background-color: #212124;
+    background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 34px;
+    outline: 0;
+    box-shadow: 0 3px 9px rgba(0,0,0,.5)
+}
+.solo-right-pane {
+    width: 465px;
+    border-top: 2px solid #212124;
+    margin-top: 5px
+}
+.info-page-container .info-page-content-container .course-illustration {
+    width: 339px;
+    height: auto;
+    float: right;
+    filter: brightness(0.9);
+}
+.info-page-container .info-page-content-container h6 {
+    font-size: 1.2em;
+    color: #ffffff
+}
+
+.info-page-container .info-page-content-container p {
+    margin: 2.3em 0;
+    color: white;
+}
+b,strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+.dashed-button>div {
+    color: #4389e4;
+    border: 2px dashed #4389e4;
+    padding: 11px 12px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    font-weight: 600;
+    height: 42px;
+    cursor: pointer
+}
+.info-page-container .info-page-content-container .profile-card {
+    width: 306px;
+    height: 580px;
+    border-radius: 0;
+    border: 1px solid #323232;
+    border-top: 8px solid #4389e4;
+    margin: auto;
+    background-color: #212124;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px
+}
+.info-page-container .info-page-content-container .profile-card .description {
+    flex: 1 1 100px;
+    overflow-y: auto;
+    color: #ffffff;
+    font-size: .9em;
+    line-height: 150%
+}
+.info-page-container .info-page-content-container .profile-card img,.info-page-container .info-page-content-container .profile-card video {
+    width: 250px;
+    margin: 1.7em 1.7em 0;
+    filter: brightness(1);
+}
+.info-page-container .info-page-content-container .profile-card .description {
+    flex: 1 1 100px;
+    overflow-y: auto;
+    color: #ffffff;
+    font-size: .9em;
+    line-height: 150%;
+    scrollbar-color: #9f9f9f #212124;
+}
+.info-page-container .info-page-content-container .profile-card .content-contributor-selector,.info-page-container .info-page-content-container .profile-card .staff-year-selector {
+    padding: .6em .9em;
+    background-color: #323232;
+    color: #ffffff;
+    border: 2px solid #363636;
+    border-radius: 10px;
+}
+.info-page-container .info-page-content-container .profile-card .content-contributor-selector option,.info-page-container .info-page-content-container .profile-card .staff-year-selector option {
+    background-color: #323232;
+    padding: .6em .9em;
+    border: 2px solid #363636;
+    color: #ffffff;
 }
