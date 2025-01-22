@@ -1,0 +1,248 @@
+body {
+    background-color: #161614;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    min-height: 98px;
+    height: 98px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 0;
+    list-style: none;
+    background-color: #161618;
+    margin-bottom: 0
+}
+.settings-button-container button {
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    filter: brightness(10);
+    background-image: url(/static/media/settings-static.0984f36c.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 65% 65%
+}
+div.new-window-icon:focus:hover img.regular,div.new-window-icon:hover img.regular,div.new-window-icon img.hover {
+    display: none;
+    filter: brightness(10);
+}
+div.new-window-icon,div.new-window-icon img.regular {
+    display: inline-block;
+    filter: brightness(10);
+}
+.text-editor-menu-bar {
+    height: fit-content;
+    overflow-x: auto;
+    scrollbar-width: 0;
+    border-left: 2px solid #212124;
+    border-right: 2px solid #212124;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #212124;
+}
+.ace_content {
+    position: absolute;
+    box-sizing: border-box;
+    min-width: 100%;
+    contain: style size layout;
+    font-variant-ligatures: no-common-ligatures;
+    background-color: #212124;
+}
+
+.ace_gutter-layer {
+    position: relative;
+    width: auto;
+    text-align: right;
+    pointer-events: auto;
+    height: 1000000px;
+    contain: style size layout;
+    background-color: #212124;
+}
+.ace-editor-container .ace-xcode .ace_gutter {
+    background-color: #212124;
+    color: #fff;
+    border-right: 2px solid #212124
+}
+
+.ace-editor-container #text-editor {
+    border: 2px solid #212124
+}
+.exercise-editor-container-left {
+    flex: 1 1;
+    display: flex;
+    position: relative!important;
+    min-width: 400px;
+    flex-flow: column;
+    background-color: #161618;
+}
+.ace-editor-container {
+    flex: 1 1;
+    display: flex;
+    border-left: 2px solid #212124;
+    border-right: 2px solid #212124;
+}
+.toolbar.left {
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+    background-color: #212124;
+    border: 2px solid #212124;
+		border-radius: 23px 23px 0 0;
+    padding-right: 16px
+}
+#file-operations-dropdown {
+    margin: 1.1em .8em;
+    padding: 0;
+    background-color: transparent;
+    filter: brightness(9);
+    width: .9em;
+    height: .9em;
+    border-radius: 0;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url(/static/media/file-ops.9bc8d9d1.svg)
+}
+.toolbar-title {
+    padding-left: 10px;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.navbar li.navitem {
+    color: #ffffff;
+    font-size: 1em
+}
+
+.navbar li.navitem>a {
+    color: #ffffff;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle
+}
+.ui-btn.success {
+    color: #ffffff;
+    background-color: #47474c;
+    border-radius: 56px;
+}
+
+.ui-btn.success:hover {
+    background-color: #39393f;
+}
+
+.ui-btn.success:active {
+    background-color: #47474c
+}
+.text-editor-menu-bar>.push-right button {
+    border: 1px solid #202023;
+    border-radius: 4px;
+    padding: 0 6px;
+    min-height: 20px
+}
+.ace_text-layer > .ace_line, .ace_text-layer > .ace_line_group {
+    contain: style size layout;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.ace-xcode .ace_marker-layer .ace_selected-word {
+  border: 1px solid #B5D5FF
+}
+
+.ace-xcode .ace_constant.ace_language,
+.ace-xcode .ace_keyword,
+.ace-xcode .ace_meta,
+.ace-xcode .ace_variable.ace_language {
+  color: #d44eff
+}
+
+.ace-xcode .ace_invisible {
+  color: #BFBFBF
+}
+
+.ace-xcode .ace_constant.ace_character,
+.ace-xcode .ace_constant.ace_other {
+  color: #275A5E
+}
+
+.ace-xcode .ace_constant.ace_numeric {
+  color: #698aff;
+}
+
+.ace-xcode .ace_entity.ace_other.ace_attribute-name,
+.ace-xcode .ace_support.ace_constant,
+.ace-xcode .ace_support.ace_function {
+  color: #c2a9ff
+}
+
+.ace-xcode .ace_fold {
+  background-color: #C800A4;
+  border-color: #000000
+}
+
+.ace-xcode .ace_entity.ace_name.ace_tag,
+.ace-xcode .ace_support.ace_class,
+.ace-xcode .ace_support.ace_type {
+  color: #790EAD
+}
+
+.ace-xcode .ace_storage {
+  color: #d44eff
+}
+
+.ace-xcode .ace_string {
+  color: #ff7879
+}
+
+.ace-xcode .ace_comment {
+  color: #c0ffc0
+}
+.ace-xcode .ace_print-margin {
+  width: 1px;
+  background: #212124
+}
+
+.ace-xcode {
+  background-color: #212124;
+  color: #000000
+}
+
+.ace-xcode .ace_cursor {
+  color: #ffffff
+}
+.ace-editor-container .triple-comment {
+    background-color: #18bf7f3b;
+    position: absolute
+}
+.ace-editor-container .five-comment {
+    background-color: #856925;
+  	position: absolute
+}
+.toolbar.right {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #212124;
+    border-radius: 18px 18px 0 0;
+    margin: 0;
+    position: relative;
+    height: 36px;
+    border-left: 2px solid #f1f1f100;
+    border-right: 2px solid #f1f1f100;
+    transition: background-color .3s
+}
