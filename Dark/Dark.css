@@ -2003,3 +2003,244 @@ b,strong {
     border: 2px solid #363636;
     color: #ffffff;
 }
+.canvas-error-message {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.2em;
+    background-color: #161616;
+    box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, .1);
+}
+.account-modal.modal-dialog .modal-body .oauth-login-page {
+    background: #212124;
+    margin: auto;
+    padding: 0;
+    max-width: 600px
+}
+.account-modal.modal-dialog .or-separator,.register-page-container .or-separator {
+    position: relative;
+    color: #ffffff
+}
+
+.account-modal.modal-dialog .or-separator .or,.register-page-container .or-separator .or {
+    background: #212124;
+}
+.account-modal.modal-dialog .or-separator hr,.register-page-container .or-separator hr {
+    border-top: 1px dotted #ffffff;
+}
+.account-modal.modal-dialog .modal-header {
+    pointer-events: auto;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 1px solid #7e7e80;
+}
+.account-modal.modal-dialog .modal-body .oauth-login .clever-login button,.account-modal.modal-dialog .modal-body .oauth-login .clever-login img {
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+}
+.account-modal.modal-dialog .modal-body .lms-login-button {
+    justify-content: center;
+    position: relative;
+    width: 320px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: #d1d1d1;
+    border-bottom: 2px solid;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    font-weight: 700
+}
+.account-modal.modal-dialog .modal-body p {
+    font-size: .9em;
+    color: #ffffff;
+}
+.account-modal.modal-dialog .modal-body .form-control {
+    border: 2px solid #363636;
+}
+.account-modal.modal-dialog .modal-body input {
+    border-radius: 20px;
+}
+.account-modal.modal-dialog .modal-body p>button {
+    padding: 4px;
+    margin: 0;
+    color: #efefef;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    float: none;
+    background-color: #212124;
+    border: none
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+    background-color: #21212400;
+}
+.modal-header {
+    padding: 15px;
+    background-color: #21212400;
+}
+.account-modal.modal-dialog .modal-header .mobile-header-text img {
+    margin-right: 1em;
+    width: 36px;
+    height: 36px;
+    filter: brightness(9);
+}
+.form-control,output {
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #d1d1d1;
+}
+.close:focus, .close:hover {
+    color: #ffffff;
+}
+.navbar .try-it-out {
+    color: #ffffff;
+}
+.cs-academy-dropdown {
+    color: #ffffff;
+    width: fit-content
+}
+.cs-academy-dropdown .dropdown-menu {
+    position: absolute !important;
+    padding: 0 !important;
+    border: 2px solid #161618 !important;
+    border-radius: 20px !important;
+    background-color: #212124 !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #7b7b7b;
+    text-decoration: none;
+    background-color: #252527;
+    border-radius: 30px;
+}
+.cs-academy-dropdown:after {
+    transition-duration: .3s;
+    content: "";
+    height: .6em;
+    width: 1em;
+    background-image: url(/static/media/caret.e665ba75.svg);
+    background-position: 50% 50%;
+    filter: brightness(10);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 2em;
+    top: .5em
+}
+.navbar-brand img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(10);
+}
+.dashed-button>div:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    right: -5px;
+    bottom: -6px;
+    background-color: #323232;
+    border-radius: 30px;
+    z-index: -1;
+    content: ""
+}
+.dashed-button>div {
+    color: #f9f9f9;
+    border: 2px dashed #e0e3e7;
+    border-radius: 30px;
+    padding: 11px 12px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    font-weight: 600;
+    height: 42px;
+    cursor: pointer;
+}
+.dashed-button>div:hover:after,.dashed-button>div:hover:focus:after {
+    width: 100%;
+    height: 100%;
+    right: -5px;
+    bottom: -6px;
+    background-color: #666;
+}
+.splash-page {
+    background-color: #161616;
+    position: relative;
+    z-index: 0;
+    padding: 0 100px
+}
+.splash-page h1 {
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 125%;
+    font-size: 46px;
+    width: 500px
+}
+.splash-page #ladder-image:not(.with-flag) {
+    width: 400px;
+    filter: brightness(0.9);
+}
+.splash-page p {
+    color: #ededed;
+    line-height: 150%
+}
+.splash-page #splash-page-opener .left .intro-text .logo {
+    width: 350px;
+    max-width: 80vw;
+    filter: brightness(10);
+}
+.splash-page #splash-page-opener h1 span:after {
+    position: absolute;
+    content: "";
+    background-color: #333;
+    width: 106%;
+    height: 50%;
+    z-index: -1;
+    right: -3px;
+    top: 35px
+}
+.splash-page h2 {
+    color: #ffffff;
+    margin-bottom: 75px;
+    line-height: 125%;
+    font-size: 36px
+}
+#curricula-section .header span:after,#student-work .header span:after {
+    position: absolute;
+    content: "";
+    background-color: #333;
+    width: 96%;
+    height: 75%;
+    z-index: -1;
+    right: 14px;
+    top: 20px
+}
+.splash-page .splash-grid-section .splash-grid-text p strong {
+    color: #ffffff;
+    font-size: 18px
+}
+.splash-page .splash-grid-section .splash-grid-text p span:after {
+    position: absolute;
+    top: 10px;
+    content: "";
+    background-color: #333;
+    height: 75%;
+    z-index: -1;
+    right: -24px;
+    width: 85%
+}
+.splash-page .stats-section h2 {
+    color: #58f5aa;
+    margin-bottom: 10px
+}
