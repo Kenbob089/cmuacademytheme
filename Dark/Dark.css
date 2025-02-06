@@ -477,6 +477,13 @@ body a:focus,body a:hover,html a:focus,html a:hover {
     margin-bottom: 10px;
     border-top: 2px solid #59464600;
 }
+.sidebar {
+    border: 3px solid #666;
+    background-color: #333;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+}
 .unit-trigger[aria-expanded=true] {
     background-color: #212124;
     color: #fff;
@@ -696,9 +703,9 @@ div.exercise-link.unlocked:focus,div.exercise-link.unlocked:hover {
     background-color: #212124
 }
 
-.ui-btn.primary.disabled,.ui-btn.primary:disabled {
-    color: #9c9c9c;
-    background-color: #eaeaea
+.ui-btn.primary.disabled, .ui-btn.primary:disabled {
+    color: #999;
+    background-color: #666;
 }
 
 .ui-btn.secondary {
@@ -1347,30 +1354,57 @@ body a:focus,body a:hover,html a:focus,html a:hover {
     white-space: nowrap;
 }
 .notes-page-container {
-    background-color: #212124;
+    background-color: #161618;
     flex: 1 1;
-    overflow-y: scroll
+    overflow-y: scroll;
+    scrollbar-color:#9f9f9f #212124;
 }
 
 .notes-page-inner {
     max-width: 768px;
     margin: 0 auto;
     padding: 0 30px 60px;
-    background-color: #212124;
+    background-color: #161618;
+}
+.notes-page-container h1 {
+    font-weight: 600;
+    color: #59b7ff;
+    font-size: 2.2em;
+    padding-bottom: .8em;
+    border-bottom: 4px solid #363636;
 }
 .notes-page-container h2 {
-    color: #59b7ff;
+    color: #d0d0d0;
     font-weight: 600;
     font-size: 1.5em
+}
+.notes-exercise-container {
+    text-align: center;
+    margin: 0 30%;
+    padding: 4px 20px;
+    border-radius: 4px;
+    background-color: #212124;
+}
+.alert {
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #ddd;
+    background-color: #212124;
+    box-shadow: 0 4px 8px rgba(54, 54, 54, .25);
 }
 .notes-page-with-nav ul.scrollspy-nav {
     padding: 2.1em 0 0;
     list-style: none;
     height: 100%;
     width: 250px;
-    background-color: #161618;
+    background-color: #161616;
     overflow-y: hidden;
-    border-right: 1px solid #161618;
+    border-right: 1px solid #212124;
+}
+.notes-page-with-nav ul.scrollspy-nav>li>a:hover {
+    color: #59b7ff;
+    text-decoration: none;
+    outline: none;
 }
 .notes-page-with-nav ul.scrollspy-nav>li.active>a,.notes-page-with-nav ul.scrollspy-nav>li.active a:focus,.notes-page-with-nav ul.scrollspy-nav>li.active a:hover {
     margin-left: 0;
@@ -1382,7 +1416,7 @@ body a:focus,body a:hover,html a:focus,html a:hover {
 .notes-page-with-nav ul.scrollspy-nav>li>a {
     padding: 7px 0 7px 18px;
     text-decoration: none;
-    border-left: 2px solid #eaeaea;
+    border-left: 3px solid #363636;
     font-size: 1em;
     box-decoration-break: clone;
     display: inline-block;
@@ -2243,4 +2277,53 @@ b,strong {
 .splash-page .stats-section h2 {
     color: #58f5aa;
     margin-bottom: 10px
+}
+.user-info-mobile .react-autosuggest__input {
+    background-color: #323232;
+    font-size: max(16px,1em)
+}
+.fade-1 {
+    opacity: .2;
+    border-radius: 34px;
+}
+
+.fade-2 {
+    opacity: .25;
+    border-radius: 34px;
+}
+
+.fade-3 {
+    opacity: .3;
+    border-radius: 34px;
+}
+
+.fade-4 {
+    opacity: .35;
+    border-radius: 34px;
+}
+
+.fade-5 {
+    opacity: .4;
+    border-radius: 34px;
+    
+}
+
+.fade-6 {
+    opacity: .45;
+    border-radius: 34px;
+}
+
+.fade-7 {
+    opacity: .5;
+    border-radius: 34px;
+}
+
+.fade-8 {
+    opacity: .55;
+    border-radius: 34px;
+}
+
+.fade-9 {
+    opacity: .6;
+    border-radius: 34px;
 }
