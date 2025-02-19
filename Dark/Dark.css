@@ -428,6 +428,16 @@ div.new-window-icon,div.new-window-icon img.regular {
     padding: 5px 10px;
     text-align: center
 }
+.quiz-page-container .time-away {
+    position: fixed;
+    font-size: 1.1em;
+    right: 20px;
+    top: 40px;
+    padding: 5px;
+    background: #d9a523;
+    border-radius: 20px;
+    z-index: 1
+}
 .syllabus-scroll .unit-trigger[aria-expanded=true] {
     background-color: #212124;
     color: #fff;
