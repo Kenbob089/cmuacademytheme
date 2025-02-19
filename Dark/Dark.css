@@ -423,6 +423,25 @@ div.new-window-icon,div.new-window-icon img.regular {
     background-color: #161618;
   	scrollbar-color:#9f9f9f #212124
 }
+.quiz-banner {
+    background: #d9a523;
+    padding: 5px 10px;
+    text-align: center
+}
+.syllabus-scroll .unit-trigger[aria-expanded=true] {
+    background-color: #212124;
+    color: #fff;
+    border: 2px solid #212124;
+}
+.syllabus-scroll .unit-panel {
+    border: 2px solid #212124;
+    border-top: 0
+}
+.syllabus-scroll .unit-panel {
+    border: 2px solid #212124;
+    background-color: #212124;
+    border-top: 0
+}
 .user-info {
     width: 280px;
     padding: 6px 10px;
@@ -484,11 +503,6 @@ body a:focus,body a:hover,html a:focus,html a:hover {
     margin: 20px;
     padding: 20px;
 }
-.unit-trigger[aria-expanded=true] {
-    background-color: #212124;
-    color: #fff;
-    border: 2px solid #212124;
-}
 .depth-1 {
     border-top: 1px solid #212124;
     padding-left: 40px
@@ -518,7 +532,7 @@ body a:focus,body a:hover,html a:focus,html a:hover {
     border-style: solid;
     border-width: 6px 6px 0;
 }
-.unit-container {
+.syllabus-scroll .unit-container {
     margin: 30px 0;
     background-color: #212124;
   	border-radius: 34px
@@ -560,9 +574,10 @@ div.exercise-link.unlocked:focus,div.exercise-link.unlocked:hover {
 .collection-summary-container.creative .collection-summary-link {
     color: #ffffff
 }
-.unit-panel {
-    border: 2px solid #06062b00;
-    border-top: 0
+.syllabus-scroll .unit-panel {
+    border: 2px solid #21212400;
+    background-color: #21212400;
+    border-top: 0;
 }
 .collection-summary-link {
     display: flex;
@@ -672,7 +687,7 @@ div.exercise-link.unlocked:focus,div.exercise-link.unlocked:hover {
     position: absolute;
     right: 50px
 }
-.unit-trigger {
+.syllabus-scroll .unit-trigger {
     margin: 0;
     display: flex;
     width: 100%;
@@ -836,6 +851,7 @@ div.exercise-link.unlocked:focus,div.exercise-link.unlocked:hover {
     border: 2px solid #ffffff00;
     margin-top: 1.5em
 }
+
 .simple-link.purple-gray {
     color: #c7c7c7
 }
